@@ -6,16 +6,16 @@ h1{
 	text-align: center;
 	margin: 30px 0 50px;
 	font-family: sans-serif;
+	color: #007bff;
+	padding-bottom: 50px;
 }
 .gallery{
 	margin: 10px 50px;
 }
 .gallery img{
 	padding: 5px;
-	filter: grayscale(100%);
 	transition: 1s;
 }
 .gallery img:hover{
-	filter: grayscale(0%);
-	transform: scale(1.1);
+	transform: scale(1.3);
 }
